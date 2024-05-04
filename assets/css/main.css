@@ -33,12 +33,12 @@
   --whitesub: #F5F6F7;
   --bgsection: #24263A;
   --cmnbg: #31334E;
-  --base: #65FF4B;
-  --base2: #FFFB1F;
+  --base: #ffcdb9;
+  --base2: #f37372;
   --title: #121519;
   --subtitle: #222E48;
   --hover: #222E48;
-  --ratting: #FFBE57;
+  --ratting: #FB0200;
   --pra: #576071;
   --pricieborder: #343E56;
   --base2border: rgba(255, 251, 31, 0.20);
@@ -1032,7 +1032,7 @@ p {
   transition: all 0.4s;
 }
 .pagination a:hover {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   color: var(--title);
   border-color: var(--base);
 }
@@ -1069,7 +1069,7 @@ p {
   position: relative;
 }
 .social li a i {
-  background: linear-gradient(90.44deg, #65FF4B 0.37%, #FFFB1F 99.67%);
+  background: linear-gradient(90.44deg, #ffcdb9 0.37%, #FB0200 99.67%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -1326,7 +1326,7 @@ p {
   content: "";
   top: 0;
   left: 0;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%) !important;
+  background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%) !important;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -1658,7 +1658,7 @@ p {
   font-size: 28px;
 }
 .bn__navigation .cmn-button-next:hover {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 @media (max-width: 767px) {
   .bn__navigation .cmn-button-next {
@@ -1685,7 +1685,7 @@ p {
   font-size: 28px;
 }
 .bn__navigation .cmn-button-prev:hover {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 @media (max-width: 767px) {
   .bn__navigation .cmn-button-prev {
@@ -1707,7 +1707,7 @@ p {
   opacity: 1;
 }
 .bn__navigation .cmn-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   width: 28px;
   height: 12px;
   border-radius: 100px;
@@ -1734,7 +1734,7 @@ p {
   opacity: 1;
 }
 .cmn-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   width: 28px;
   height: 12px;
   border-radius: 100px;
@@ -1751,7 +1751,7 @@ p {
   opacity: 1;
 }
 .cmn__paginationtwo .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   width: 28px;
   height: 12px;
   border-radius: 100px;
@@ -1797,7 +1797,7 @@ p {
 .video__style {
   width: 40px;
   height: 40px;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1835,7 +1835,7 @@ p {
   top: 15px;
   left: -40px;
   z-index: 99999;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   width: 40px;
   height: 40px;
   display: flex;
@@ -1938,7 +1938,7 @@ p {
   width: 0;
   height: 100%;
   inset: 0;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   z-index: -1;
   transition: all 0.4s;
   border-radius: 16px;
@@ -2118,14 +2118,14 @@ p {
 }
 .header-wrapper .main-menuone li .sub-menu li:hover a {
   color: var(--subtitle) !important;
-  background: var(--secondary-color-secondary-color, #FFFB1F);
+  background: #f37372;
 }
 .header-wrapper .main-menuone li .sub-menu li:hover a i {
   color: var(--subtitle) !important;
 }
 .header-wrapper .main-menuone li .sub-menu li.active a {
   color: var(--subtitle) !important;
-  background: var(--secondary-color-secondary-color, #FFFB1F);
+  background: var(--secondary-color-secondary-color, #FB0200);
 }
 .header-wrapper .main-menuone li .sub-menu li.active a i {
   color: var(--subtitle) !important;
@@ -2367,7 +2367,7 @@ p {
   transition: all 0.5s;
 }
 .show__upmenu::after {
-  background: var(--active-color-active-color, linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%));
+  background: var(--active-color-active-color, linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%));
   width: 100%;
   height: 100%;
   content: "";
@@ -2752,7 +2752,7 @@ p {
   }
 }
 .upcoming__recent:hover .overlay__thumb::before {
-  background: linear-gradient(180deg, rgba(101, 255, 75, 0) 0%, rgba(101, 255, 75, 0.08) 26.9%, rgba(101, 255, 75, 0.75) 56.61%, #65FF4B 100%);
+  background: linear-gradient(180deg, rgba(101, 255, 75, 0) 0%, rgba(101, 255, 75, 0.08) 26.9%, rgba(101, 255, 75, 0.75) 56.61%, #ffcdb9 100%);
 }
 .upcoming__recent:hover h4 a {
   color: var(--title);
@@ -2793,16 +2793,16 @@ p {
 .cmn__sidebtn .cmn-button-next8,
 .cmn__sidebtn .cmn-button-next9,
 .cmn__sidebtn .cmn-button-next {
-  min-width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(101, 255, 75, 0.5);
-  border: 1px solid rgba(101, 255, 75, 0.5);
-  position: initial;
-  transition: all 0.4s;
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fb0200;
+    border: 1px solid rgb(239 31 31 / 50%);
+    position: initial;
+    transition: all 0.4s;
 }
 .cmn__sidebtn .cmn-button-next2::after,
 .cmn__sidebtn .cmn-button-next3::after,
@@ -2835,8 +2835,9 @@ p {
 .cmn__sidebtn .cmn-button-next8:hover,
 .cmn__sidebtn .cmn-button-next9:hover,
 .cmn__sidebtn .cmn-button-next:hover {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   color: var(--title);
+  
 }
 @media (max-width: 767px) {
   .cmn__sidebtn .cmn-button-next2,
@@ -2867,8 +2868,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(101, 255, 75, 0.5);
-  border: 1px solid rgba(101, 255, 75, 0.5);
+  color: #fb0200;
+  border: 1px solid rgb(239 31 31 / 50%);
   position: initial;
   transition: all 0.4s;
 }
@@ -2903,7 +2904,7 @@ p {
 .cmn__sidebtn .cmn-button-prev8:hover,
 .cmn__sidebtn .cmn-button-prev9:hover,
 .cmn__sidebtn .cmn-button-prev:hover {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   color: var(--title);
 }
 @media (max-width: 767px) {
@@ -3077,7 +3078,7 @@ p {
 
 .switch .custom-switch input:checked + label:after {
   left: 41px;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 
 .switch .custom-switch label {
@@ -3100,7 +3101,7 @@ p {
   top: 2px;
   left: 0px;
   border-radius: 19px;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   pointer-events: none;
   transition: all 0.4s ease-in-out;
   border: 4px solid var(--cmnbg);
@@ -3288,7 +3289,7 @@ p {
   }
 }
 .news__thumb:hover::before {
-  background: linear-gradient(180deg, rgba(101, 255, 75, 0) 0%, rgba(101, 255, 75, 0.08) 24.23%, rgba(101, 255, 75, 0.5) 54.44%, #65FF4B 100%);
+  background: linear-gradient(180deg, rgba(101, 255, 75, 0) 0%, rgba(101, 255, 75, 0.08) 24.23%, rgb(215 62 15 / 50%) 54.44%, #ffcdb9 100%);
 }
 .news__thumb:hover .news__content .more {
   color: var(--title) !important;
@@ -3410,7 +3411,7 @@ p {
   gap: 9px;
 }
 .live__matchfix .match__wing i {
-  background: linear-gradient(90.44deg, #65FF4B 0.37%, #FFFB1F 99.67%);
+  background: linear-gradient(90.44deg, #ffcdb9 0.37%, #FB0200 99.67%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -3638,7 +3639,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 .support__heading form button i {
   color: var(--title);
@@ -3677,7 +3678,7 @@ p {
   }
 }
 .topic__item:hover .topic__down {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 .topic__item:hover .topic__down i {
   color: var(--title);
@@ -4413,7 +4414,7 @@ p {
   display: none;
 }
 .liclick .mclick.reply-active {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+  background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 .liclick .mclick.reply-active .plus {
   display: none;
@@ -4430,7 +4431,7 @@ p {
   color: var(--title);
 }
 .liclick:hover .mclick {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 
 .comment__head .nice-select {
@@ -4465,7 +4466,7 @@ p {
   min-width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 }
 .addcomment__form .commentform button i {
   color: var(--title);
@@ -4805,7 +4806,7 @@ p {
   transition: all 0.4s;
 }
 .faq__tabs .nav .nav-item .nav-link.active {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   border: unset;
 }
 .faq__tabs .nav .nav-item .nav-link.active span {
@@ -4815,7 +4816,7 @@ p {
   color: var(--hover);
 }
 .faq__tabs .nav .nav-item:hover .nav-link {
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   border: unset;
 }
 .faq__tabs .nav .nav-item:hover .nav-link span {
@@ -5265,7 +5266,7 @@ p {
   display: inline-block;
   text-transform: capitalize;
   position: relative;
-  background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+   background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
   overflow: hidden;
   gap: 12px;
   color: var(--title);
@@ -5285,7 +5286,7 @@ p {
   height: 0px;
   background: var(--hover);
   transition: all 0.5s;
-  background: linear-gradient(94deg, #FFFB1F 0%, #65FF4B 100%);
+  background: linear-gradient(94deg, #FB0200 0%, #ffcdb9 100%);
 }
 .cmn--btn:hover {
   color: var(--title);

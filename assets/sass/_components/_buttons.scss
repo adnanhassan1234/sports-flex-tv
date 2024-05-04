@@ -8,7 +8,7 @@
 	display: inline-block;
 	text-transform: capitalize;
 	position: relative;
-	background: linear-gradient(94deg, #65FF4B 0%, #FFFB1F 100%);
+	background: linear-gradient(94deg, #ffcdb9 0%, #FB0200 100%);
 	overflow: hidden;
 	gap: 12px;
 	color: var(--title);
@@ -27,7 +27,7 @@
 		height: 0px;
 		background: var(--hover);
 		transition: all 0.5s;
-		background: linear-gradient(94deg, #FFFB1F 0%, #65FF4B 100%);
+		background: linear-gradient(94deg, #FB0200 0%, #ffcdb9 100%);
 	}
 	&:hover{
 		color: var(--title);

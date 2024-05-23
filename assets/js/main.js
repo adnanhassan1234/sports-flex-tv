@@ -668,20 +668,20 @@ $(document).ready(function () {
 	//--Preloader--//
 
 	// --search popup--
-	// var openButton = document.getElementById('searchBtn');
-	// var popup = document.getElementById('searchPopup');
-	// var closeButton = document.getElementById('closeButton');
+	var openButton = document.getElementById('searchBtn');
+	var popup = document.getElementById('searchPopup');
+	var closeButton = document.getElementById('closeButton');
 
-	// openButton.addEventListener('click', function() {
-	// popup.classList.add('open');
-	// });
+	openButton.addEventListener('click', function() {
+	popup.classList.add('open');
+	});
 
-	// closeButton.addEventListener('click', function() {
-	// popup.classList.add('close');
-	// setTimeout(function() {
-	// 	popup.classList.remove('open', 'close');
-	// }, 100); 
-	// });
+	closeButton.addEventListener('click', function() {
+	popup.classList.add('close');
+	setTimeout(function() {
+		popup.classList.remove('open', 'close');
+	}, 100); 
+	});
 	//--search popup--//
 	$('.video').playVideo();
 
